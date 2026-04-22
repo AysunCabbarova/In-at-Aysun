@@ -394,11 +394,11 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 0.32) 0%, rgba(9, 9, 121, 0.61
     }
     .service-container{
        
-    flex-direction: column; /* Əsas sehr burdadır: Yan-yana yox, alt-alta (sütun) düz */
-        align-items: center; /* Qutuları tam ekranın mərkəzinə gətir */}
+    flex-direction: column;
+        align-items: center;
         .ikon {
-        width: 100%; /* Qutular telefonda ekranın enini tam tutsun */
-        max-width: 450px; /* Amma çox da eybəcər dərəcədə uzanmasın deyə limit qoyuruq */
+        width: 100%; 
+        max-width: 450px; 
     }
 
 
