@@ -1,0 +1,392 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+main{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+nav img{
+   height: 120px;
+   margin: 3px 40px;
+}
+menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: 50px;
+    font-weight: 600;
+
+   
+}
+menu{
+display: flex;
+    gap: 30px}
+
+menu  a:hover{
+    color:orange;
+}
+.div a:hover{
+background: orange;
+ padding: 10px 20px;
+ color: white;
+ transition: 0.3s;
+ border-radius: 5px;
+
+}
+.div a{
+    margin: 40px 40px;
+   font-weight: 600;
+   
+}
+
+.nomre {
+    font-weight: bold;
+    color: #1a365d;}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    }
+    .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.container{
+    background-image: url('img/Aysuni.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+}
+
+
+.btn-hero{
+background-color: #e67e22; /* Narıncı rəng */
+    color: white;
+    padding: 15px 35px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    display: inline-block;
+    padding: 20px 20px;
+    border-radius: 10px;
+
+}
+.btn-hero:hover{
+    background: pink;
+}
+.service-container {
+    display: flex; 
+    gap: 30px; 
+
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.section {
+    padding: 80px 5%; 
+    background-color: #f9f9f9;
+    
+}
+.ikon:hover{
+   background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+   transition: 0.3s ease;
+}
+.ikon{
+    flex: 1;
+    
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+   
+   
+}
+i{
+
+    font-size: 50px;
+    margin: 10px auto;
+  
+}
+
+.about-section {
+    padding: 80px 5%;
+    background-color: #ffffff; 
+}
+
+.about-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 50px; /* Şəkil və mətn arasında 50px məsafə (bir-birinə yapışmasınlar) */
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+
+.about-text {
+    flex: 1; 
+    max-width: 500px; 
+}
+
+.about-text h4 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #1a365d; 
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.8; 
+    margin-bottom: 15px; 
+}
+
+.about-image {
+    flex: 1; 
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 600px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+}
+
+
+.elave{
+
+display: flex;
+
+}
+.div5{
+    background-color: antiquewhite;
+    width: 20%;
+    margin: 10px 5px 20px 100px;
+    justify-content: space-between;
+    border-radius: 10px;
+   
+}
+span h2{
+    text-align: center;
+    margin: 20px 20px;
+}
+.img1 {
+    width: 90%;
+    height: 250px; 
+    object-fit: cover;
+   margin: 10px 18px;
+   
+}
+.img1:hover{
+    transform: scale(1.4);
+}
+   .div5 h1{
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #e67e22;
+   
+    
+   }
+   .div6{
+    background: #e67e22;
+    color: #f9f9f9;
+    border-radius: 8px;
+    display: block;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 100px auto;
+   
+
+   
+   }
+   .div6:hover{
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+   }
+.div7{
+    display: flex;
+    margin: 30px 40px;
+    justify-content: space-between;
+   
+
+}
+.reng{
+background: #3cff00;
+background: linear-gradient(90deg, rgba(60, 255, 0, 0) 0%, rgba(253, 29, 29, 0.31) 50%, rgba(252, 176, 69, 0.92) 100%);
+background-size: cover;
+background-position: center;
+}
+.input1{
+ height: 35px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 100px;
+    gap:40px;
+    width: 500px;
+    
+
+   
+}
+h1{
+text-align: center;
+width: 100%;
+
+
+}
+.divv1{
+    display: inline-block;
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+border-radius: 100px;
+padding: 10px 10px;
+margin: 100px 240px;
+text-align: center;
+}
+.div3vv{
+    margin: 50px 850px;
+}
+
+.divv1 p{
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+footer{
+   background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 0.32) 0%, rgba(9, 9, 121, 0.61) 35%, rgba(0, 212, 255, 0.75) 100%);
+width: 100%;
+margin: 0 auto;
+}
+.div10{
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 0.32) 0%, rgba(9, 9, 121, 0.61) 35%, rgba(0, 212, 255, 0.75) 100%);
+    height: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+   
+}
+
+
+@media (max-width: 768px) 
+{
+    .divv1{
+        display: flex;
+        flex-wrap: nowrap;
+        flex:1;
+        background: none;
+    }
+    .div7{
+        flex-direction: column;
+        align-items: center;
+    }
+    .elave{
+        
+       
+    flex-direction: column; 
+        align-items: center;
+    }
+    .div5{
+        width: 100%;
+        max-width: 450px;
+    }
+
+     .about-container {
+        flex-direction: column; 
+        text-align: center; 
+    }
+    
+    .about-text {
+        max-width: 100%; 
+    }
+
+    .logo{
+        height: 50px;
+        margin: 0 2px;
+    }
+    .hamburger {
+        display: block;}
+
+        menu{
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+        padding: 30px 0;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+       
+        }
+       
+
+        .div{
+            display: none;
+            
+    flex-direction: column;
+        gap: 15px;
+
+        }
+    
+    .hero-content {
+        font-size: 18px;
+    }
+    .container{
+        height: 50vh;
+    }
+    
+    .btn-hero{
+       font-size: 22px;
+     
+       padding: 20px 20px;
+       text-align: center;
+      
+      
+    }
+    .service-container{
+       
+    flex-direction: column; /* Əsas sehr burdadır: Yan-yana yox, alt-alta (sütun) düz */
+        align-items: center; /* Qutuları tam ekranın mərkəzinə gətir */}
+        .ikon {
+        width: 100%; /* Qutular telefonda ekranın enini tam tutsun */
+        max-width: 450px; /* Amma çox da eybəcər dərəcədə uzanmasın deyə limit qoyuruq */
+    }
+
+
+}
